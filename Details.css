@@ -1,0 +1,211 @@
+.header3 {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: none;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100px;
+  height: 12vh;
+  box-shadow: 0 2 10px rgba(83, 121, 246, 255);
+}
+
+.body3 {
+  background-image: url(E:\MERN-Stack\client\TSRTC\public\steptodown.com4310171.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  min-height: 88vh;
+  display: grid;
+  place-items: center;
+}
+
+.heading3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  padding-left: 200px;
+}
+
+.Flexy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 79vw;
+}
+
+.BusDetails {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.head {
+  font-family: "Wix Madefor Display";
+  font-size: 2.5em;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.info {
+  font-family: "Wix Madefor Display";
+  font-size: 1em;
+  font-weight: 500;
+  padding-left: 8px;
+  display: grid;
+}
+
+.text {
+  text-align: end;
+  display: grid;
+  min-width: 600px;
+}
+
+.Haveit {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.data {
+  font-size: 1.2em;
+}
+
+.impbuttons {
+  min-width: 500px;
+  display: grid;
+  place-items: center;
+}
+
+.impbuttonsd {
+  min-height: 700px;
+}
+
+.changebutton {
+  margin-left: 60px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-radius: 3px;
+  font-size: 0.5em;
+  transition: border 0.3s;
+}
+
+.changebutton:hover {
+  border: 2px solid white;
+}
+
+.popup {
+  /* border: 2px solid black; */
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: grid;
+  place-items: center;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 7px 7px 0px rgb(0, 0, 0);
+  position: relative;
+}
+
+.pop {
+  font-size: 1em;
+  margin-left: 0 !important;
+}
+
+.close-button {
+  position: absolute;
+  background: rgba(255, 255, 255, 0);
+  border: none;
+  border-radius: 20px;
+  color: black;
+  min-width: 30px;
+  min-height: 30px;
+  top: -2px;
+  right: 0px;
+  font-weight: 800;
+  font-size: 1em;
+}
+
+.popup-input {
+  min-width: 350px;
+  min-height: 30px;
+  margin-top: 10px;
+  border: 2px solid black;
+  border-radius: 4px;
+  text-align: center;
+  padding-bottom: 5px;
+  background: rgb(255, 255, 255);
+  border: 2px solid black;
+  caret-color: rgb(0, 0, 0);
+  box-shadow: 3px 4px 0 rgb(0, 0, 0);
+  color: black;
+  font-family: "Wix Madefor Text", sans-serif;
+  margin-bottom: 20px;
+}
+
+.popup-input:focus {
+  outline: none;
+}
+
+.emergency-details {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+/* map */
+.container-map {
+  height: 500px;
+  width: 800px;
+  border: 2px solid black;
+  margin-left: 20px;
+  /* position: absolute;
+  left: 50px;
+  top: 80px; */
+}
+/* .changeLAT,.changeLNG{
+  margin:20px;
+  padding:6px;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  font-kerning: auto;
+} */
+.zoom {
+  z-index: 4;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.mapboxgl-marker.mapboxgl-marker-anchor-bottom {
+  width: 40px;
+  padding-bottom: 8px;
+}
+.bus,
+.bus1 {
+  background-color: rgb(0, 255, 4);
+  border-radius: 5px 5px 30px 30px;
+  padding: 7px;
+}
+.bus1 {
+  background-color: rgb(255, 255, 0);
+}
+#root
+  > div.body3
+  > div
+  > div
+  > div.mapboxgl-canvas-container.mapboxgl-interactive.mapboxgl-touch-drag-pan.mapboxgl-touch-zoom-rotate {
+  height: 0;
+}
