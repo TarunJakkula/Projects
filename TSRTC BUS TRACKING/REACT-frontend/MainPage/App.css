@@ -1,0 +1,223 @@
+.header {
+  background-color: rgb(255, 255, 255);
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100px;
+  height: 12vh;
+}
+
+.body {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-image: url(E:\MERN-Stack\client\TSRTC\public\mainpage.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  min-height: 88vh;
+}
+
+.heading {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  padding-left: 200px;
+}
+
+.btndiv {
+  padding-right: 140px;
+}
+
+.button {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  margin-right: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  font-size: 1em;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-style: none;
+  transition: text-shadow 0.2s;
+}
+
+.button:hover {
+  text-shadow: 0px 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.button:active {
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#knowmore {
+  max-width: 180px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 0.26em;
+  margin-top: 30px;
+  padding-top: 12px;
+  /* padding-left:30px;
+    padding-right: 30px; */
+  padding-bottom: 12px;
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-radius: 5px;
+}
+
+#knowmore:hover {
+  border: 2px solid white;
+}
+
+.card {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: grid;
+  place-items: center;
+  margin-right: 250px;
+  border-radius: 10px;
+}
+
+.loginback {
+  background: #98b4fe;
+  border: 2px solid black;
+}
+
+.registerback {
+  background: #b8e6e6;
+  border: 2px solid black;
+}
+
+.desc {
+  display: grid;
+  place-items: center;
+  min-width: 460px;
+  font-family: "Wix Madefor Text", sans-serif;
+}
+
+.desback {
+  background-color: #d9e5ff;
+  border: 2px solid black;
+}
+
+.description {
+  display: grid;
+  padding-top: 250px;
+  padding-bottom: 200px;
+  margin-left: 200px;
+  min-width: 450px;
+}
+
+.title {
+  color: black;
+  font-size: 4em;
+  font-family: "Wix Madefor Display";
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.extra {
+  font-size: 1.7em;
+  font-family: "Wix Madefor Display";
+  font-weight: 500;
+}
+
+.card-title {
+  color: Black;
+  font-family: "Wix Madefor Text", sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.card-title-sizes {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.card-title-size {
+  font-size: 2.1em;
+  font-weight: 800;
+}
+
+.card-title-small {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+#login {
+  margin-top: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-radius: 3px;
+  transition: border 0.3s;
+}
+
+#login:hover {
+  border: 2px solid #98b4fe;
+}
+
+#login:active {
+  border: 2px solid #b8e6e600;
+}
+
+.input {
+  min-width: 300px;
+  min-height: 30px;
+  margin-top: 10px;
+  border: 2px solid black;
+  border-radius: 4px;
+  text-align: center;
+  padding-bottom: 5px;
+  background: rgb(255, 255, 255);
+  border: 2px solid black;
+  caret-color: rgb(0, 0, 0);
+  box-shadow: 3px 4px 0 rgb(0, 0, 0);
+  color: black;
+  font-family: "Wix Madefor Text", sans-serif;
+}
+
+.input:focus {
+  outline: none;
+}
+
+#register {
+  margin-top: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-radius: 3px;
+  transition: border 0.3s;
+}
+
+#register:hover {
+  border: 2px solid #b8e6e6;
+}
+
+#register:active {
+  border: 2px solid #b8e6e600;
+}
