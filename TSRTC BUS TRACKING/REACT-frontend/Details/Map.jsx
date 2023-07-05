@@ -107,7 +107,7 @@ function Map({ arr, LastLoc, route }) {
             {...viewState}
             onMove={(evt) => SetViewState(evt.viewState)}
             transitionDuration="200"
-            mapboxAccessToken="pk.eyJ1IjoibWluaXByb2plY3QxNCIsImEiOiJjbGo1Y2wwbXUwMzdzM25wazV6ZDU4c2szIn0.WMygEBr5vTs09Q61779nPg"
+            mapboxAccessToken="--your token--"
             style={{ width: "100%", height: "100%" }}
             mapStyle="mapbox://styles/miniproject14/clj7hmbrn006y01r2bcviegeg"
           >
